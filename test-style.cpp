@@ -480,7 +480,7 @@ bool testFunctionName(std::ofstream& testFeedback, std::string codeNoCmnt) {
    return true;
 }
 
-// Test clss names start with upper case, use camel case and no underscores
+// Test class names start with upper case, use camel case and no underscores
 bool testClassName(std::ofstream& testFeedback, std::string codeNoCmnt) {
    std::regex classRE(R"(\bclass\s+(\w+)\s*\{)");
    // Check all class names
